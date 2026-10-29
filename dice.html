@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+<body class="bg-white bg-[#f0f2f5] flex  justify-center items-center min-h-screen m-0">
+    <div class="shadow-2xl bg-white p-5 w-[350px] 
+    text-center rounded-[12px] max-w-[90%] p-5 h-[360px]">
+
+    <h1 class="font-bold text-center p-5 text-2xl">Dice Roller</h1>
+
+    <div class="text-center flex justify-center">
+    <img 
+     src="./img/dice 1.jpeg" 
+     class="width-[50px] height-[40px] mx-auto text-center 
+     justify-center max-h-[90px] max-w[60px] shrink-0 my-5 mb-2"
+     id="diceImage">
+     </div>
+    <p class="p-2 mb-4 font-bold mb-auto">
+       <span id="resultText"> you roll</span>
+    </p>
+
+    <button 
+      id="rollButton"
+      class="rounded-xl border-2 bg-indigo-700 text-white text-center py-3 px-16 border-none
+     mt-4 font-bold">
+        Roll the Dice
+    </button>
+    </div>
+
+   <script src="dice.js"></script>
+</body>
+
+</html>
